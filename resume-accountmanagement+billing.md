@@ -1,8 +1,8 @@
 ## Account Management , Billing & Support
 
 **Organizations**
-It's a global service
-Multiple Organization = One Bill and Discount because use more resources.
+It's a global service\
+Multiple Organization = One Bill and Discount because use more resources.\
 
 Multi Account Strategies
 - Create account per departament or per environment (dev, test, prod)
