@@ -1,14 +1,22 @@
 ## Machine Learning
 
 **Rkognition**
+- face detection
 
 **Transcribe**
+- audio to text
 
 **Polly**
+- text to audio
 
 **Translate**
+- translations
 
-**Lex + Connect**
+**Lex**
+- chatbots
+
+**Connection**
+- cloud contact center
 
 **Comprehend**
 - NPL
@@ -26,3 +34,9 @@
 **Kendra**
 - Document Search Service
 - Extract answers from documents, for example 'Where is the IT support Desk?'
+
+**Personalize**
+- Product Recommendations
+
+**Textract**
+- extract text handwrited to json
