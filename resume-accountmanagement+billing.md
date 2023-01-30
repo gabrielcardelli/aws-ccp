@@ -63,3 +63,38 @@ Service Control Policies
 - Prefer user private IP instead of Public IP.
 - You pay when connect and az to another ($0.01 per gb)  or  one region to other ($0.02 per gb)
 
+**Saving plans**
+- EC2: 72% discount usage indifidual instance families in regin C5 or M5
+- Compute: 66% discount compared to on demand.
+
+**Compute Optimizer**
+- Helps us to choose optimal configurations
+- Uses machine learning to know
+
+**AWS Pricing Calculator**
+
+
+**Cost Allocation Tags*
+- Track in detailed level
+
+**Trust Advisor**
+- Analyze account and provides recommendations on: Cost optimization, Performance, Security, Fault tolerance, Service limits
+- Default 7 core checks on Basic & Developer Suupport plan: S3 Bucket Permission, Security Groups, IAM USE, MFA on Root Account, EBS Public Snapshots, RDS Public Snapshots and Service Limits
+- Full Checks Businnes & Enterprise Support Plan:  Full checks available on the 5 categories, Set CloudWatchAlarms, Programmatic Access using AWS Support API
+
+**Support Plan**
+- Basic
+- Developer
+- Business 
+- - Trust Advisor Full Checks
+- - Phone and chat Support
+- Enterprise On-Ramp
+- - Access to a pool technical account manager
+- - Concierge Support Team
+- Enterprise
+- - Access to a designated technical account manager
+- Concierge Support Team
+
+**Best Practices**
+- Operate multiple accounts using organizations
+- Use cost allocation tags
