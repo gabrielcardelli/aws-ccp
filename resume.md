@@ -48,8 +48,93 @@
 - Service that tests web and mobile apps 
 - Run tests concurrently on mutiple devices
 
+**AWS DataSync**
+- Move large amount of data from o premises to AWS.
+- Incremental
+
 **AWS Backup**
 - Centrally manage and automate backups
 - Has a backup plan (frequency, retention and policy)
 
-**Disaster Recovery Strategies**
+
+**AWS Application Discovery Service**
+- Plan Migration
+- - Agentless Discorvery
+- - Agent based Discorvery
+
+**AWS Application Migration Service**
+- Simplify migrating applications to AWS
+
+**AWS Fault Injection Simulator**
+- Based on Chaos Engeneering - stressing an application by creating disruptive events
+- AWS Fault -> Create Experiment Template -> Start Resources (EC2,ECS) <- Monitoring With CloudWatch and EventBridge -> View Results
+
+**AWS Step Functions**
+- Build servless visual workflow to orchestrate your lambda functions
+
+**AWS Ground Station**
+- Control sattelite
+- Allows you to download satellite data to S3 or EC2
+
+**Amazon Pinpoint**
+- Marketing communications service
+- Support email,SMS, push, voice and in-app messaging.
+
+**AWS Whitepapers Well-Architected Framework**
+_1st pillar: Operational Excelence_
+- Ability to run and monitor systems
+- Design Principles: 
+  - Perform operations as code
+  - Annotate documentation
+  - Make frequent small reversible chances
+  - Refine operations procedures frequently
+  - Anticipate failure
+  -Learn from all operational failures
+- Prepare Stage: Cloud Formation, AWS  Config
+- Operate Stage: CloudFormation, AWS Config, AWS CloudTrail, CloudWatch, X-Ray
+- Evolve Stage: CloudFormation, CodeBuild, CodeCommit, CodeDeploy, CodePipeline
+
+_2nd pillar: Security_
+- Design Principles
+  - Implement a strong identity foundation: Centralize Previlege Management (IAM,STS,MFA token , Organizatios)
+  - Enable traceability: Integrate logs and metrics
+  - Apply Security at all layers (VPC, SHIELD, WAF, Inspector)
+  - Automate security best practices
+  - Protect data in transit and at rest (KMS, S3)
+  - Keep people away from data
+  - Prepare for security events
+
+_3rd pillar: Reliability_
+- Ability of a system to recover from infra or service disruptions.
+- Design Principles:
+  - Test recovery procedures
+  - Automatically recover from failure
+  - Scale horizontally to increse aggregate availability
+  - Stop guessing capacity
+  - Manage chance in automation
+
+_4th pillar: Performance Efficiency
+- Design Principles:
+  - Democratize advanced tech
+  - Go global in minutes
+  - Use servless architectures
+  - Experiment more often
+  - Mechanical Sympathy: Be aware of all AWS Services
+_5th pillar: Cost Optimization:
+- Design Principles:
+  - Adopt a consumption mode
+  - Measure overall efficiency: Use cloud watch
+  - Stop spending money on data center operations
+  - Analyze and attribute expenditure: Accurate identification of system usage
+  - Use managed and application level services to reduce cost of ownership
+
+_6th pillar: Sustainability_
+- Design Principles: 
+  - Understand your impact 
+  - Establish sustainability goals
+  - Maximize utilization: Minimize idle resources
+  - Anticipate and adopt new, more efficient hardware and software offerings: Adopt new technologies over time
+  - Use managed services: Shared services reduce the amount of infra.
+  - Reduce the downstream impact of your cloud workloads
+
+** AWSWell-Architected Tool**
