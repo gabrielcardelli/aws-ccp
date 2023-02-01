@@ -113,7 +113,7 @@ _3rd pillar: Reliability_
   - Stop guessing capacity
   - Manage chance in automation
 
-_4th pillar: Performance Efficiency
+_4th pillar: Performance Efficiency_
 - Design Principles:
   - Democratize advanced tech
   - Go global in minutes
@@ -137,4 +137,46 @@ _6th pillar: Sustainability_
   - Use managed services: Shared services reduce the amount of infra.
   - Reduce the downstream impact of your cloud workloads
 
-** AWSWell-Architected Tool**
+**AWS Well-Architected Tool**
+
+**AWS Right Sizing**
+- Matching instance type and sizes to workload performance at lowest possible cost
+- Important on: before a Cloud Migration, continously after the cloud onboarding process
+
+**AWS Ecosystem**
+- AWS Blogs, AWS Forums, AWS Whitepapers & Guides, AWS QuickStarts (Ex: Wordpress, build env quickly), AWS Solutions
+
+**AWS Support**
+- Developer:
+  - Business Hour by Email
+  - General guidance: < 24 businnes hour
+  - System impaired: < 12 business hour
+- Business
+  - 24h phone, email, chat access to Cloud Support Engineers
+  - Production system impaired: < 4h
+  - Production system down: < 1h
+- Enterprise
+  - Access to a Technical Account Manager (TAM)
+  - Concierge Support Team (for billing and account best practices)
+  - Business-critical system down: < 15m
+
+**AWS Marketplace**
+- Digital catalog listing independent software vendors: Custom AMI, CloudFormation templates, SaaS, Containers.
+
+**AWS Training**
+- Online and Classroom Training
+- Private Training for Organization
+- Training and Cert for the U.S Government
+- Training and Cert for the Enterprise
+
+**AWS Professional Services & Partnet Network**
+- Global team of experts to help us.
+
+**AWS Knowledge Center**
+- Contains the most frequently and common questions
+
+**AWS IQ**
+- Quickly find profissional help for AWS projects.
+
+**AWS re:Post**
+- Like stackoverflow
