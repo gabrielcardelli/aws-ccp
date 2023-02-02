@@ -1,3 +1,11 @@
+I need to study
+
+AWS Trust Advisor
+AWS Inspector
+VPC
+AWS CLOUD TRAIL
+Write ML resumo here.
+EFS x EBS x Local Storage x S3 x Redshift
 
 ## Resume
 
